@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-    "test": "playwright test"
+    "test": "npx playwright test"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
   "homepage": "https://github.com/BigRoller/lab11#readme",
   "description": "",
   "dependencies": {
-    "@playwright/test": "^1.60.0",
     "mocha": "^11.7.6"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
   }
 }
