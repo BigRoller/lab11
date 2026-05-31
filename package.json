@@ -1,0 +1,26 @@
+{
+  "name": "lab11",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BigRoller/lab11.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BigRoller/lab11/issues"
+  },
+  "homepage": "https://github.com/BigRoller/lab11#readme",
+  "description": "",
+  "dependencies": {
+    "mocha": "^11.7.6"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
+  }
+}
